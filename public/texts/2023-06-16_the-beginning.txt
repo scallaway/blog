@@ -1,0 +1,24 @@
+This is the start
+
+===
+
+It's been many months in the making, but I've finally gotten around to building
+a place where I can store all my thoughts going forward.
+
+I've been meaning to find an entry into online technical writing etc, but never
+felt there was a perfect solution for me. So I just went ahead and built a
+rudimentary solution for myself.
+
+A more detailed explanation of the architecture will follow in an article at 
+some point, but the main takeaway is that this is built using ReactJS[1] and
+NextJS[2] - hosted on Vercel.
+
+Stylistically, it's had a _lot_ of inspiration from the very early forms of 
+text on the web, to try and keep it as simple as possible (whilst still looking
+somewhat decent). There aren't going to be any flashy animations here, this
+isn't a portfolio site. The easier to read the better (79 columns all the way).
+
+===
+
+[1] ReactJS: https://react.dev/
+[2] NextJS: https://nextjs.org/

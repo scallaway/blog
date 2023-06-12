@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "import/order": "error",
+    "react/no-unescaped-entities": "off"
+  }
+}
