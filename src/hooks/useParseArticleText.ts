@@ -20,6 +20,6 @@ export const useParseArticleText = (text: string): ArticleContent | null => {
   return {
     title,
     body: body.split("\n\n").filter(isNotEmpty),
-    footer: footer.split("\n").filter(isNotEmpty),
+    footer: footer ? footer.split("\n").filter(isNotEmpty) : [],
   };
 };
