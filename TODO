@@ -1,0 +1,5 @@
+- Work out why it takes so long to retrieve a single article, when it should
+  just be a matter of reading a file from the public folder.
+
+  I wonder whether it's something in Vercel that is causing the delay...
+
