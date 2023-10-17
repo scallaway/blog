@@ -1,11 +1,17 @@
 html {
-  max-width: 79ch;
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
+  max-width: calc(79ch + 2em); // To take the padding into consideration
   background-color: #282c34;
+  box-sizing: border-box;
   color: #b0b7c4;
   font-smooth: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 a {
