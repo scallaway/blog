@@ -1,0 +1,17 @@
+A tiny vim tip
+
+===
+
+Just a very small thing that I discovered today whilst doing some research...
+
+When deleting through a line in vim, the _slow_ way is to call "dw" the entire
+time up to the word that you want.
+
+However, if you instead use "d/{word}", you're able to type out the pattern
+that you want to delete up to.
+
+This is very handy for situations when you're looking at what you want to
+delete up to, but you need to go through the entire line to get to it.
+
+Definitely something I'm going to try and commit to memory when I'm writing
+anything!
