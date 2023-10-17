@@ -5,7 +5,8 @@ import "./home.scss";
 import { useGetOrderedArticles } from "@/hooks/useGetOrderedArticles";
 
 const Home = async () => {
-  const latestArticleName = (await useGetOrderedArticles())[0];
+  const orderedArticles = await useGetOrderedArticles();
+  const latestArticleName = orderedArticles[orderedArticles.length - 1];
   const parsedArticle = useParseArticleText(
     (await useGetLatestArticle()) || ""
   );
