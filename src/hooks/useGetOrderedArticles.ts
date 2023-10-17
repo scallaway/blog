@@ -1,15 +1,24 @@
 import path from "path";
-import fs, { promises } from "fs";
+import { promises } from "fs";
 
-export const useGetOrderedArticles = async () => {
+export const useGetOrderedArticles = async (): Promise<
+  ReadonlyArray<string>
+> => {
   const articleDirectory = path.join(process.cwd(), "public/texts");
   const files = await promises.readdir(articleDirectory);
 
-  return files
-    .map((file) => ({
-      file,
-      mtime: fs.lstatSync(path.join("public/texts", file)).mtime,
-    }))
-    .sort((a, b) => b.mtime.getTime() - a.mtime.getTime())
-    .map(({ file }) => file);
+  // First get a map of all the file dates to the file names
+  const fileMap = new Map(
+    files.map((file) => [new Date(file.split("_")[0]), file])
+  );
+
+  // Sort those dates, newest first.
+  const sortedFileDates = [...fileMap.keys()].sort((a, b) =>
+    b.toISOString().localeCompare(a.toISOString())
+  );
+
+  // Return an array of files, in date order (newest first)
+  return sortedFileDates
+    .map((date) => fileMap.get(date) ?? null)
+    .filter((file) => file !== null) as ReadonlyArray<string>;
 };

@@ -1,4 +1,4 @@
-export const useGetArticleNames = (articles: string[]) => {
+export const useGetArticleNames = (articles: ReadonlyArray<string>) => {
   return articles.map((article) => {
     const [rawDate, rawName] = article.split("_");
 
