@@ -1,0 +1,37 @@
+The power of plain text and "open"
+
+===
+
+Today I found this exceptional talk [1] on running a collaboration "team" (it
+doesn't really matter what project is being collaborated on) purely on
+plaintext documents. 
+
+It goes into detail about how a team that only works on documentation can
+utilise the power of plaintext documents and git to increase their
+productivity.
+
+The ultimate takeaway is that plaintext isn't going away, especially as
+software continues to be written to files that are, ultimately, just characters
+in a file, and that there should be a higher bar when moving to new technology
+solutions that all end up solving the same problem.
+
+What are you using to manage your notes, be it personal or work? I've heard
+very good things about Obsidian [2], but it just hasn't seemed to click with me
+as it stands. Maybe it will work for you!
+
+---
+
+The other main takeaway from that talk was to try and build software in the
+open as much as possible, and I think I'm going to use that mantra going
+forward.
+
+I've previously taken the stance of wanting the software that I present in the
+open to be of a standard and somewhat feature complete, but then that isn't
+really a genuine reprsentation of how engineers work.
+
+Going forward (and starting today), I'm going to strive to build new software
+that I create in the open to begin with where possible. Maybe someone might
+benefit from stumbling onto a problem that I've managed to solve.
+
+Step 1, though, is opening the repo for this blog up to the world. The commits
+could do with a bit of a cleanup...
