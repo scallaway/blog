@@ -10,7 +10,7 @@ do through vim (the move to which would require a whole different blog post). A
 lot of time is spent flicking through different windows, which KDE does not
 make super easy.
 
-I already have a pretty decent setup for Tmux, which it boots into
+I already have a pretty decent setup for tmux, which it boots into
 automatically, so it makes sense to build on that. As such, the next tool that
 I'm trying to bring to the terminal is code reviews.
 
@@ -21,12 +21,26 @@ everything I need (after some experimenting), but then I discovered octo.nvim
 It's 100% going to take a bit of getting used to, and my initial play around
 inside a private repo was a bit clunky, but I'm going to challenge myself to
 use this in my everyday flow. I can already tell I'm going to need to setup
-some aliases, since typing :Octo pr {command} everytime really isn't the
+some aliases, since typing :Octo pr {command} every time really isn't the
 nicest thing ever.
 
 I'm probably going to make _very_ good use of vim.keymap.set()!
+
+---
+
+Edit (21-07-23)
+
+I've already stopped using this.
+
+I realised that it didn't have nearly the features that I was looking for, and
+ended up being way too clunky. Which is a real shame, since the idea is so
+good.
+
+I think the next best stop is to try and find a TUI for Github, instead of
+trying to do everything through vim!
 
 ===
 
 [1] Github CLI: https://cli.github.com/
 [2] octo.nvim: https://github.com/pwntester/octo.nvim
+
