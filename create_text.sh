@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Create a file with the current date and time in it.
-current_date=$(date "+%Y-%m-%d-%H-%M-%S")
+current_date=$(date "+%Y-%m-%d")
 
 # Read the title from user input
 echo "Enter the title of the post:"
