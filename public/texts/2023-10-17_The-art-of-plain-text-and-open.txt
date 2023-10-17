@@ -35,3 +35,8 @@ benefit from stumbling onto a problem that I've managed to solve.
 
 Step 1, though, is opening the repo for this blog up to the world. The commits
 could do with a bit of a cleanup...
+
+===
+
+[1] The Unreasonable Effectiveness Of Plain Text: https://www.youtube.com/watch?v=WgV6M1LyfNY
+[2] Obsidian: https://obsidian.md/
