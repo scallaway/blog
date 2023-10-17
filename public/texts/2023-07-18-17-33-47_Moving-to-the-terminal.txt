@@ -1,0 +1,32 @@
+Moving back to the terminal
+
+===
+
+I've been recently trying to consolidate the tools that I use back to the
+terminal where possible. 
+
+Currently, most of my day is spent looking through and editing code, of which I
+do through vim (the move to which would require a whole different blog post). A
+lot of time is spent flicking through different windows, which KDE does not
+make super easy.
+
+I already have a pretty decent setup for Tmux, which it boots into
+automatically, so it makes sense to build on that. As such, the next tool that
+I'm trying to bring to the terminal is code reviews.
+
+I recently discovered that Github provides a CLI tool [1] that _almost_ does
+everything I need (after some experimenting), but then I discovered octo.nvim
+[2] which builds on top of this.
+
+It's 100% going to take a bit of getting used to, and my initial play around
+inside a private repo was a bit clunky, but I'm going to challenge myself to
+use this in my everyday flow. I can already tell I'm going to need to setup
+some aliases, since typing :Octo pr {command} everytime really isn't the
+nicest thing ever.
+
+I'm probably going to make _very_ good use of vim.keymap.set()!
+
+===
+
+[1] Github CLI: https://cli.github.com/
+[2] octo.nvim: https://github.com/pwntester/octo.nvim
