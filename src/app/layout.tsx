@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./global.scss";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const officeCodePro = localFont({ src: "../fonts/OfficeCodeProD-Regular.otf" });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={officeCodePro.className}>
       <body>
+        <SpeedInsights />
         <Header />
         <main>{children}</main>
         <Footer />
