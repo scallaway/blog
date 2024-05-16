@@ -8,7 +8,7 @@ const Home = async () => {
   const orderedArticles = await useGetOrderedArticles();
   const latestArticleName = orderedArticles[orderedArticles.length - 1];
   const parsedArticle = useParseArticleText(
-    (await useGetLatestArticle()) || ""
+    (await useGetLatestArticle()) || "",
   );
 
   const latestArticleDate = latestArticleName

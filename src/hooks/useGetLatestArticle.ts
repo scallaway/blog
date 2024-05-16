@@ -12,6 +12,6 @@ export const useGetLatestArticle = async () => {
 
   return fs.readFile(
     path.join(process.cwd(), "public/texts/") + orderedArticles[0],
-    "utf-8"
+    "utf-8",
   );
 };

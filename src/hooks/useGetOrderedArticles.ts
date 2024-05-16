@@ -9,12 +9,12 @@ export const useGetOrderedArticles = async (): Promise<
 
   // First get a map of all the file dates to the file names
   const fileMap = new Map(
-    files.map((file) => [new Date(file.split("_")[0]), file])
+    files.map((file) => [new Date(file.split("_")[0]), file]),
   );
 
   // Sort those dates, newest first.
   const sortedFileDates = [...fileMap.keys()].sort((a, b) =>
-    b.toISOString().localeCompare(a.toISOString())
+    b.toISOString().localeCompare(a.toISOString()),
   );
 
   // Return an array of files, in date order (newest first)

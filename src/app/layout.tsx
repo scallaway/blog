@@ -1,9 +1,9 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import React from "react";
 import localFont from "next/font/local";
 import "./global.scss";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const officeCodePro = localFont({ src: "../fonts/OfficeCodeProD-Regular.otf" });
 
