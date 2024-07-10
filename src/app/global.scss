@@ -1,6 +1,7 @@
 html {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 40vw;
+  min-width: calc(79ch + 2em);
   background-color: #282c34;
   box-sizing: border-box;
   color: #b0b7c4;
@@ -37,5 +38,6 @@ main {
 
   article {
     max-width: 79ch;
+    margin: 0 auto;
   }
 }
