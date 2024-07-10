@@ -1,5 +1,6 @@
 import { useGetArticle } from "@/hooks/useGetArticle";
 import { useParseArticleText } from "@/hooks/useParseArticleText";
+import "./page.scss";
 
 const ArticlePage = async ({
   params: { slug },

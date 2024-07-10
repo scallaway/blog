@@ -1,8 +1,6 @@
 html {
   margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
-  max-width: calc(79ch + 2em); // To take the padding into consideration
+  max-width: 50%;
   background-color: #282c34;
   box-sizing: border-box;
   color: #b0b7c4;
@@ -12,6 +10,9 @@ html {
 body {
   margin: 0;
   padding: 0;
+  max-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 a {
@@ -24,6 +25,17 @@ a {
   }
 }
 
+header, footer {
+  max-width: 79ch;
+}
+
+// TODO: Think of a way to get just the article to scroll in the main page,
+//       instead of including the header as well
 main {
   min-height: 24ch;
+  overflow: auto;
+
+  article {
+    max-width: 79ch;
+  }
 }
