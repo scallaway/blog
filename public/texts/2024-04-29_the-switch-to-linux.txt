@@ -1,0 +1,56 @@
+Linux.
+
+===
+
+My life is now officially all on Linux.
+
+I still maintain a Windows partition on my personal rig, but that's purely for
+the games and simulators that don't provide any Linux support. That being said,
+I haven't booted that up in a good while as I try and do everything I can on
+Linux first, before falling back to that. At the time of writing, this has been
+the case for ~3 months.
+
+My work requires that I run a Linux machine, so that's where most of the
+driving force has come from. Through using that, I've fallen in love with the
+system that you can build around the Linux kernel. It can be however you want,
+with almost limitless possibilities.
+
+For work I'm running Ubuntu which is solid but not my favourite. For my
+personal rig however, I've gone with EndeavourOS [1] which is based on Arch but
+without all the hassle.
+
+It's been absolutely flawless! So far. Annoyingly that's something you _still_
+have to take into consideration even in 2024, there's certainly a non-zero
+chance that something is going to go wrong. My interpretation was that Arch,
+given its rolling-release nature, would become rather unstable fairly quickly.
+But, even though I manually run `yay` every time I log in, I've seen no such
+instability. I'm very close to having the expectation that the PC will turn on
+and boot without issues 100% of the time (which is my expectation with
+Windows).
+
+A huge part of my life is gaming, and I blame the Steamdeck for the extremely
+rapid progression in the Gaming on Linux space. I frequent r/linux_gaming [2],
+as there are some very helpful folk over there who can be the silver bullet
+required to get a game running if it's not cooperating. However, if you look at
+the ProtonDB [3] stats, you'll see that there is a very good coverage of the
+Steam inventory for games that will either _just work_ or run very close to
+that.
+
+For example, I'm currently doing my first play through of Elden Ring (base
+game) and that runs, as a single player game, without any issues. Multiplayer
+doesn't work at the moment, and FromSoft are looking to fix that, but I'm not
+worried about that.
+
+This certainly isn't an advertisement for wiping your hard drive and installing
+a Linux distribution, but it's certainly a suggestion that if you were thinking
+about taking the plunge, at least dual-boot and have a play around. There are
+obviously going to be tools that simply don't have Linux support, because the
+user-base isn't there. But, I think you'll be surprised as to just how much you
+can achieve if you seek out the Linux alternative to software that you use on
+a daily basis.
+
+===
+
+[1] EndeavourOS https://endeavouros.com/
+[2] Linux Gaming Subreddit https://reddit.com/r/gaming_linux
+[3] ProtonDB https://www.protondb.com/
