@@ -1,0 +1,33 @@
+A new year, a new theme
+
+===
+
+For the last few years, when working in my terminal emulator of choice,
+Alacritty, I've been using a theme called No Clown Fiesta [1]. To accompany
+that darkness, I'd been using the Kanagawa [2] theme for Neovim. 
+
+I'd struggled for a long time to find a theme that I thought was subtle enough
+to be easy on the eyes. It was quite the jump from One Dark Pro [3] (originally
+provided by Atom) I'd been using before that.
+
+However, we're now a quarter of a century into the 2000s and I thought it was
+the perfect time for a new change. I've been watching quite a lot of
+programming streams/videos on Twitch and YouTube and having seen the various
+themes people had, I realised I've never been truly happy with my choice.
+
+So I browsed r/Neovim for a bit, as well as a few other sources for colour
+scheme inspiration, until I finally settled on what I think will be my theme
+for at least the next year (hopefully longer):
+
+    catppuccin [4]
+
+This is a fairly popular colour scheme that gets pushed to the top of Reddit
+threads asking the same question as I almost all the time - suffice to say the
+sub really likes the theme.
+
+And, since I've started using it today, so have I. It's certainly a lot more
+colourful than the previous theme I was using, but I'm hoping I can get into
+the flow of the colours they've picked and enjoy using it.
+
+I've since swapped my terminal emulator theme, Neovim theme, and Zellij [5]
+theme over to it so my whole screen is a very calming dark(ish) blue.

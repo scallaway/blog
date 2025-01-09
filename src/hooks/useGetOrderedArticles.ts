@@ -7,9 +7,12 @@ export const useGetOrderedArticles = async (): Promise<
   const articleDirectory = path.join(process.cwd(), "public/texts");
   const files = await promises.readdir(articleDirectory);
 
-  // First get a map of all the file dates to the file names
+  // First get a map of all the file dates to the file names, filtering out
+  // those that are WIP.
   const fileMap = new Map(
-    files.map((file) => [new Date(file.split("_")[0]), file]),
+    files
+      .filter((file) => !file.startsWith("wip-"))
+      .map((file) => [new Date(file.split("_")[0]), file]),
   );
 
   // Sort those dates, newest first.
