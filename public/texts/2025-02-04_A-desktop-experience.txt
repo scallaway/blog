@@ -1,0 +1,25 @@
+A desktop experience
+
+---
+
+I'm always looking for ways to improve my desktop experience and having swapped
+over to Linux that search has only gotten harder rather than easier.
+
+Given the roots of my Linux knowledge are firmly nestled in Ubuntu, I've always
+found GNOME, especially the more recent versions, to be my desktop environment
+of choice; albeit with a small helping from the GNOME shell extensions (mainly
+dash-to-panel and arc menu).
+
+However, I've always had my eye on a tiling window manager such as i3, as I
+know it's very popular with those that want to be more efficient with their
+computer interactions.
+
+The problem is, I've always been intimidated by it - they're certainly not for
+the feint-hearted.
+
+I've tried previously to get i3 going but fell out of love with it pretty
+quickly, mainly due to not being fully dedicated to it. I've had similar
+experiences with Regolith, which is meant to be i3 but with less of a learning
+gap.
+
+[WIP]
