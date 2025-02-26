@@ -1,0 +1,27 @@
+git worktrees
+
+===
+
+- Perfect for the power user
+
+- Allow you to work on multiple things at once
+
+- Using lazygit, I can have various features/projects WIP'd and jump back to
+  them without issue
+
+- Couple that with Zellij's floating terminal and I can be updating one piece
+  of work whilst in the middle of another piece of work
+
+  - Perfect for updating a branch to master/develop and pushing quickly to get
+    a PR in the merge queue
+
+- Still retain the branch-based workflow, but now you can have branches off the
+  repo at different points in time
+
+  - You're still able to branch off develop/master in that separate worktree if
+    you so wish
+
+- They're almost infinitely flexible
+
+- Getting setup is a bit of a pain though, and something you should certainly
+  document if you can.
