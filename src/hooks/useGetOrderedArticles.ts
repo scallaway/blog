@@ -1,11 +1,11 @@
 import path from "path";
-import { promises } from "fs";
+import { promises as fs } from "fs";
 
 export const useGetOrderedArticles = async (): Promise<
   ReadonlyArray<string>
 > => {
   const articleDirectory = path.join(process.cwd(), "public/texts");
-  const files = await promises.readdir(articleDirectory);
+  const files = await fs.readdir(articleDirectory);
 
   // First get a map of all the file dates to the file names, filtering out
   // those that are WIP.

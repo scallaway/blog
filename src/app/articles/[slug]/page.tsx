@@ -3,10 +3,11 @@ import { useParseArticleText } from "@/hooks/useParseArticleText";
 import "./page.scss";
 
 const ArticlePage = async ({
-  params: { slug },
+  params,
 }: {
-  params: { readonly slug: string };
+  params: Promise<{ readonly slug: string }>;
 }) => {
+  const { slug } = await params;
   const article = await useGetArticle(slug);
   const parsedArticle = useParseArticleText(article ?? "");
 
