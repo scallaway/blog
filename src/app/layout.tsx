@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import React from "react";
 import localFont from "next/font/local";
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={officeCodePro.className}>
       <body>
+        <Analytics />
         <SpeedInsights />
         <Header />
         <main>{children}</main>
