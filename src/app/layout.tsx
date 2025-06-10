@@ -1,11 +1,11 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import React from "react";
 import localFont from "next/font/local";
+import type { ReactNode } from "react";
 import "./global.scss";
-import { Metadata } from "next";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import type { Metadata } from "next";
+import Footer from "./components/footer.tsx";
+import { Header } from "./components/header.tsx";
 
 const officeCodePro = localFont({ src: "../fonts/OfficeCodeProD-Regular.otf" });
 
@@ -14,11 +14,7 @@ export const metadata: Metadata = {
   description: "An archive of my online ramblings",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en" className={officeCodePro.className}>
       <body>
@@ -30,4 +26,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

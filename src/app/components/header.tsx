@@ -1,8 +1,8 @@
 import Link from "next/link";
 import "./header.scss";
-import { Divider } from "./Divider";
+import { Divider } from "./Divider.tsx";
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="header">
       <Link href="/">
@@ -19,5 +19,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

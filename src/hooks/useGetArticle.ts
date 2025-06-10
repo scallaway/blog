@@ -1,5 +1,5 @@
-import path from "path";
 import { promises as fs } from "fs";
+import path from "path";
 
 export const useGetArticle = async (slug: string) => {
   const articleDirectory = path.join(process.cwd(), "public/texts");
