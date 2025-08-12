@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.12.12",
+    "@types/node": "24.2.1",
     "@types/react": "18.3.2",
     "@types/react-dom": "18.3.0",
     "@vercel/analytics": "^1.5.0",
@@ -24,5 +24,8 @@
     "sass": "^1.89.2",
     "typescript": "5.4.5"
   },
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "engines": {
+    "node": "22.x"
+  }
 }
